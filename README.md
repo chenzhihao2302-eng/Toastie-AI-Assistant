@@ -38,7 +38,9 @@ Toastie-AI-Assistant/
 │   └── send_to_server.dart
 ├── .gitignore
 └── README.md
+```
 
+---
 
 ## 架构流程
 
@@ -57,21 +59,15 @@ https://b23.tv/IGotWY6
 * API Key 通过环境变量配置（未上传）
 * 本仓库为核心功能展示版本
 
+---
 
 ## 关键文件说明
 
 * `assistant_screen.dart`：主控制逻辑（状态切换 + 请求调度）
-
 * `send_to_server.dart`：封装前后端通信（HTTP 请求）
-
 * `assistant_chat_ui.dart`：聊天界面展示
-
 * `assistant_listening_ui.dart`：语音监听状态 UI
-
 * `assistant_response_ui.dart`：AI 回复展示
-
 * `assistant_speaking_ui.dart`：语音播放状态
-
 * `assistant_thinking_ui.dart`：AI 处理中状态
-
 * `backend/adk.py`：Flask 后端接口（调用 Gemini API + 返回 JSON）
