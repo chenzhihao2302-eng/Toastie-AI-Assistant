@@ -39,6 +39,7 @@ Toastie-AI-Assistant/
 ├── .gitignore
 └── README.md
 
+
 ## 架构流程
 
 Flutter → Flask API → Gemini → JSON → 前端渲染
