@@ -24,19 +24,20 @@
 
 ## 项目结构
 
+```bash
 Toastie-AI-Assistant/
 ├── backend/
 │   └── adk.py
 ├── frontend/
 │   ├── assistant_screen.dart
-│   ├── send_to_server.dart
 │   ├── assistant_chat_ui.dart
 │   ├── assistant_listening_ui.dart
 │   ├── assistant_response_ui.dart
 │   ├── assistant_speaking_ui.dart
-│   └── assistant_thinking_ui.dart
-
----
+│   ├── assistant_thinking_ui.dart
+│   └── send_to_server.dart
+├── .gitignore
+└── README.md
 
 ## 架构流程
 
